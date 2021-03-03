@@ -1,0 +1,18 @@
+.places__item {
+    display: flex;
+}
+
+.places__item:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .places__item {
+        flex-direction: column;
+    }
+
+    .places__item:nth-of-type(2n) {
+        flex-direction: column;
+    }
+}
+

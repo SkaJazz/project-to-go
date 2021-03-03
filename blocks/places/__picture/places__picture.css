@@ -1,0 +1,11 @@
+.places__picture {
+    max-width: 50%;
+    object-fit: contain;
+    line-height: 0;
+}
+
+@media (max-width: 768px) {
+    .places__picture {
+        max-width: 100%;
+    }
+}
