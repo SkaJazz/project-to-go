@@ -1,0 +1,13 @@
+.nav__links {
+	display: flex;
+    flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@media (max-width: 520px) {
+    .nav__links {
+        display: block;
+    }
+}

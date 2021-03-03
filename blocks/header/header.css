@@ -1,0 +1,13 @@
+.header {
+    max-width: 1110px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+    padding: 44px 60px 73px 60px;
+}
+
+@media (max-width: 520px) {
+    .header {
+        padding: 44px 31px 73px 31px;
+    }
+}
