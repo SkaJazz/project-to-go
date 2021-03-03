@@ -2,7 +2,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__picture/places__picture.css);
