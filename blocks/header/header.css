@@ -6,8 +6,8 @@
     padding: 44px 60px 73px 60px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 1024px) {
     .header {
-        padding: 44px 31px 73px 31px;
+        padding: 44px 6vw 73px 6vw;
     }
 }
