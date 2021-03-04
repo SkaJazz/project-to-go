@@ -1,6 +1,17 @@
 .quotes {
   margin: 118px 60px;
-  /* background-color: #eee; */
+}
+
+@media (max-width: 1024px) {
+  .quotes {
+    margin: 14vw 6vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .quotes {
+    margin: 18vw 6vw;
+  }
 }
 
 .label {
