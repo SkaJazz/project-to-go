@@ -1,0 +1,7 @@
+.footer {
+    /* min-height: 540px; */
+    height: calc(100vw / 2.05);
+    max-height: 540px;
+    background-color: #FECDA7;
+    display: flex;
+}

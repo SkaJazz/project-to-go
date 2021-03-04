@@ -17,3 +17,6 @@
 @import url(../blocks/quotes/__source/quotes__source.css);
 @import url(../blocks/quotes/__quote/quotes__quote.css);
 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
