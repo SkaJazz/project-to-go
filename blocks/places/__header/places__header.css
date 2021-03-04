@@ -1,0 +1,16 @@
+.places__header {
+  font-size: 31px;
+  margin: 52px 12px 50px 60px;
+}
+
+@media (max-width: 1024px) {
+  .places__header {
+    margin: 5vw 2vw 6vw 6vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .places__header {
+    margin-top: 6vw;
+  }
+}

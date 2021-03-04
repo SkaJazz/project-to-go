@@ -7,3 +7,12 @@
 @import url(../blocks/nav/__links/__item/nav__item.css);
 @import url(../blocks/nav/__links/__link/nav__link.css);
 @import url(../blocks/link/link.css);
+@import url(../blocks/places/__list/places__list.css);
+@import url(../blocks/places/__item/places__item.css);
+@import url(../blocks/places/__picture/places__picture.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__textblock/places__textblock.css);
+@import url(../blocks/places/__header/places__header.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+
