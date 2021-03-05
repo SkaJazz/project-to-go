@@ -1,0 +1,6 @@
+.video__iframe {
+  display: block;
+  width: 100%;
+  height: calc(100vw / 2.05);
+  max-height: 540px;
+}

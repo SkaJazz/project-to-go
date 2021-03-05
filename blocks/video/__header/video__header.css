@@ -1,0 +1,21 @@
+.video__header {
+    position: absolute;
+    top: 83px;
+    left: 60px;
+    font-size: 31px;
+    line-height: 37px;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .video__header {
+        left: 6vw;
+        top: 2vw;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .video__header {
+        font-size: 4vw;
+    }
+  }
