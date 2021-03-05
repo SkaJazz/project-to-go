@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-    padding: 44px var(--margin-h-general) 73px var(--margin-h-general);
+    padding: 44px var(--margin-h-general) 70px var(--margin-h-general);
 }
 
 @media (max-width: 470px) {

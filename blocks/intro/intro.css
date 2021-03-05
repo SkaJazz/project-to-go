@@ -1,17 +1,15 @@
 .intro {
-    display: flex;
-    max-width: 1110px;
-    padding: 0 60px 0 60px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  max-width: 1110px;
+  padding: 0 60px 0 60px;
+  margin: 0 auto 113px;
+  align-items: stretch;
 }
 
-
-@media (max-width: 855px) {
-    .intro {
-        display: block;
-        padding: 0 20px 0 20px;
-        padding: 0 6vw 0 6vw;
-    }
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin-bottom: var(--margin-vertical-bottom-general);
+  }
 }

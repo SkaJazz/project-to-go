@@ -1,0 +1,20 @@
+:root {
+  --margin-vertical-top-general: 118px;
+  --margin-vertical-bottom-general: 67px;
+  --margin-horisontal-left-general: 60px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --margin-vertical-top-general: 14vw;
+    --margin-vertical-bottom-general: 10vw;
+    --margin-horisontal-left-general: 6vw;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --margin-vertical-top-general: 18vw;
+    --margin-vertical-bottom-general: 12vw;
+  }
+}

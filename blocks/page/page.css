@@ -4,7 +4,8 @@
   line-height: 1.2;
   max-width: 1110px;
   margin: 0 auto;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   --margin-h-general: 60px;
 }
 
