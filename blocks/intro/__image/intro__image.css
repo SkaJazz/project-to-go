@@ -1,13 +1,6 @@
 .intro__image {
-    display: block;
-    width: 310px;
-    height: 310px;
-    object-fit: cover;
-    margin: 0 76px 0 76px
-}
-
-@media (max-width: 720px) {
-    .intro__image {
-        margin: 0 auto;
-    }
+    background-image: url(../../../images/unprocessed/intro-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100%;
 }
