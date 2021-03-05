@@ -1,0 +1,15 @@
+.header {
+    max-width: 1110px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+    padding: 44px var(--margin-h-general) 73px var(--margin-h-general);
+}
+
+@media (max-width: 470px) {
+    .header {
+        flex-direction: column;
+        padding-bottom: 44px;
+        align-items: flex-start;
+    }
+}
