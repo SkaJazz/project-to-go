@@ -2,4 +2,14 @@
   font-family: Roboto, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.2;
+  max-width: 1110px;
+  margin: 0 auto;
+
+  --margin-h-general: 60px;
 }
+
+@media (max-width: 1024px) {
+  .page {
+    --margin-h-general: 6vw;
+  }
+} 
