@@ -6,6 +6,7 @@
 @media (max-width: 768px) {
     .action {
       flex-direction: column;
+      flex-direction: column-reverse;
       min-height: 100%;
     }
 }
