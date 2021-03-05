@@ -1,0 +1,11 @@
+.action {
+    display: flex;
+    min-height: 540px;
+}
+
+@media (max-width: 768px) {
+    .action {
+      flex-direction: column;
+      min-height: 100%;
+    }
+}
