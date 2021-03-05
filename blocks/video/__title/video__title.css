@@ -1,0 +1,14 @@
+.video__title {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 31px;
+    line-height: 37px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
