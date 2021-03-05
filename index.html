@@ -10,7 +10,16 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+            <ul class="nav__links">
+                <li class="nav__item"><a href="#dreams" class="nav__link link">Мечты</a></li>
+                <li class="nav__item"><a href="#expectations" class="nav__link link">Ожидания</a></li>
+                <li class="nav__item"><a href="#reality" class="nav__link link">Реальность</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="header__link link">Пожаловаться</a>
+      </header>
       <main class="main">
         <section class="intro"></section>
         <section class="places">
@@ -140,11 +149,22 @@
             </li>
           </ul>
         </section>
-        <section class="togo"></section>
+        <section class="action" id="reality">
+          <form action="" class="form">
+              <h2 class="form__title">Так куда же я поеду?</h2>
+              <fieldset class="form__fieldset">
+                <input type="text" name="direction" id="direction" class="form__input form__input_type_direction" placeholder="Я поеду ...">
+                <textarea name="reason" id="reason" cols="30" rows="10" class="form__input form__input_type_reason" placeholder="Потому что я ..."></textarea>
+                <input type="submit" class="form__button" value="Поехали уже куда-нибудь!">
+              </fieldset>
+          </form>
+          <div class="action__image"></div>
+      </section>
+      <section class="togo"></section>
         <section class="video">
           <h2 class="video__header">А&nbsp;пока что&nbsp;&mdash; всё ещё сидим дома!</h2>
           <video class="video__iframe" src="./video/video.mp4" controls poster="images/original/video.jpg">Видеоклип группы "Хадн-Дадн" на песню "Мы сегодня дома"</video>
-        </section>
+       </section>
       </main>
       <footer class="footer">
         <h3 class="footer__copyright">&copy; 2021</h3>
