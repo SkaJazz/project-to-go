@@ -1,0 +1,10 @@
+.intro__container-image {
+    width: 31%;
+    margin: 0 76px 0 76px;
+}
+
+@media (max-width: 855px) {
+    .intro__container-image {
+        margin: 40px auto 0;
+    }
+}

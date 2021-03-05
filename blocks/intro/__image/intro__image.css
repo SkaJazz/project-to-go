@@ -1,0 +1,6 @@
+.intro__image {
+    background-image: url(../../../images/unprocessed/intro-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100%;
+}
