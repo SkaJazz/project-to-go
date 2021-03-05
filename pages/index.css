@@ -14,3 +14,11 @@
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__header/quotes__header.css);
+@import url(../blocks/quotes/__list/quotes__list.css);
+@import url(../blocks/quotes/__source/quotes__source.css);
+@import url(../blocks/quotes/__quote/quotes__quote.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

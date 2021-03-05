@@ -1,0 +1,10 @@
+.quotes__quote {
+  margin: 20px 0 0;
+  line-height: 18px;
+}
+
+@media (max-width: 520px) {
+  .quotes__quote {
+    max-width: 320px;
+  }
+}
