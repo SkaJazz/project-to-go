@@ -1,0 +1,9 @@
+.action__picture {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .action__picture {
+    width: 100%;
+  }
+}

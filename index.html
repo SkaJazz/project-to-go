@@ -217,7 +217,21 @@
               />
             </fieldset>
           </form>
-          <div class="action__image"></div>
+          <picture class="action__picture">
+            <source
+              srcset="./images/processed/jpg/airport-schedule.jpg"
+              media="(max-width: 520px)"
+            />
+            <source
+              srcset="./images/processed/jpg/airport-schedule__hor.jpg"
+              media="(max-width: 768px)"
+            />
+            <img
+              src="./images/processed/jpg/airport-schedule.jpg"
+              alt="Фотография табло в аэропорту"
+              class="action__image"
+            />
+          </picture>
         </section>
         <section class="togo"></section>
         <section class="video">

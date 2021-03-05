@@ -2,8 +2,8 @@
     font-size: 31px;
     line-height: 37px;
     font-weight: bold;
-    width: 70%;
-    margin: 0 0 66px 0;
+    max-width: 280px;
+    margin: 0 0 66px var(--margin-horisontal-left-general);
 }
 
 @media (max-width: 768px) {

@@ -3,3 +3,15 @@
   font-size: 31px;
   line-height: 37px;
 }
+
+@media (max-width: 768px) {
+  .footer__copyright {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer__copyright {
+    font-size: 6vw;
+  }
+}

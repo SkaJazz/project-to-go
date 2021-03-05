@@ -1,12 +1,10 @@
 .action {
     display: flex;
-    min-height: 540px;
+    background-color: #f2f2f2;
 }
 
 @media (max-width: 768px) {
     .action {
-      flex-direction: column;
       flex-direction: column-reverse;
-      min-height: 100%;
     }
 }

@@ -1,6 +1,5 @@
 .places__textblock {
   width: 50%;
-  /* padding: 56px 59px 73px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
