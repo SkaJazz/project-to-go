@@ -3,11 +3,13 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-    padding: 44px 60px 73px 60px;
+    padding: 44px var(--margin-h-general) 73px var(--margin-h-general);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 470px) {
     .header {
-        padding: 44px 6vw 73px 6vw;
+        flex-direction: column;
+        padding-bottom: 44px;
+        align-items: flex-start;
     }
 }
